@@ -1,0 +1,15 @@
+{html{
+	head{
+		title{"Titre de la page exemple"}
+	}
+	body{
+		div[align="center"]{h1{"Titre au centre"}}
+		p{"Ceci est un paragraphe de test"}
+		p{a[href="http://google.com"]{"Voici "} "un lien vers google"}
+		p{"On peut aussi include une image"
+		br/}
+			img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Ada_lovelace.jpg/220px-Ada_lovelace.jpg"]
+			{br/"Ada Lovelace"}
+	}
+}
+}
